@@ -8,9 +8,11 @@
 from sense_hat import SenseHat
 
 import sys
+from time import sleep
 
 # adapted from https://learn.adafruit.com/adafruit-io-basics-digital-output/python-code
 #import Adafruit IO REST client.
+
 from Adafruit_IO import Client, Feed, RequestError, Data
 import Adafruit_DHT
 DHT_SENSOR = Adafruit_DHT.DHT22
@@ -19,11 +21,12 @@ DHT_PIN = 4
 # Set to your Adafruit IO key.
 # Remember, your key is a secret,
 # so make sure not to publish it when you publish this code!
-ADAFRUIT_IO_KEY = 'aio_BkVf53AQS6lpfYuoH2cArbQgDf8Z'
+ADAFRUIT_IO_KEY = ''
 
 # Set to your Adafruit IO username.
 # (go to https://accounts.adafruit.com to find your username)
 ADAFRUIT_IO_USERNAME = 'Akinyele_Samuel'
+
 sense = SenseHat()
 
 # Create an instance of the REST client.
@@ -31,7 +34,7 @@ aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
 
 TAG = "sensehat humidity publisher"
 
-from time import sleep
+
 
 
 while True:
