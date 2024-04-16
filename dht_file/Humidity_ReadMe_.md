@@ -1,4 +1,7 @@
 # HUMIDITY READINGS USING RASBERRY Pi 3, DHT22 SENSOR and PYTHON PROGRAMMING
+  
+# SAMUEL 2235890 
+  
 Using some simple Python code and a Raspberry Pi, the DHT22 will allow real-time humidity readings to be read to the Pi, with reasonable accuracy. The Raspberry Pi DHT22 sensor makes for an affordable, easy-to-use, and reliable sensor due to its simple 4-pin wiring and greater accuracy. 
   
 Components Required 
@@ -94,4 +97,8 @@ Getting the readings in a formatted version
 *Figure 16
 Humidity readings from my python code on raspberry pi being published to my Adafruit feeds. 
   
+# References 
+https://www.tech-sparks.com/raspberry-pi-dht22-sensor-project/
+  
+https://randomnerdtutorials.com/raspberry-pi-dht11-dht22-python/
   
